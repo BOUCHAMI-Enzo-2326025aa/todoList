@@ -1,0 +1,28 @@
+#filter{
+    margin: 10px;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    padding-right: 10px;
+}
+#tri{
+    margin: 10px;
+    border-radius: 5px;
+    background-color: rgb(110, 203, 224);
+    color: white;
+    padding-right: 10px;
+}
+
+#urgent{
+    margin: 10px;
+    border-radius: 5px;
+    background-color: rgb(200,60,60);
+    color: white;
+    padding-right: 10px;
+}
+
+#categorie-filter select{
+    margin: 10px;
+    border-radius: 5px;
+    padding-right: 10px;
+}

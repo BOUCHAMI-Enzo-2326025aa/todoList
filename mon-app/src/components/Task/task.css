@@ -1,0 +1,73 @@
+/* task.css */
+.task {
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.task:hover {
+    background-color: #f4f4f4;
+}
+
+#title {
+    font-weight: bold;
+    color: #333;
+}
+
+#date {
+    color: #666;
+}
+
+.checkbox input[type="checkbox"] {
+    margin-right: 8px;
+}
+
+.checkbox {
+    text-align: center;
+}
+
+.checkbox input[type="checkbox"]:checked {
+    background-color: #4caf50;
+}
+
+.checkbox input[type="checkbox"]:not(:checked) {
+    background-color: #f44336;
+}
+
+.task td {
+    padding: 8px;
+    border: 1px solid #ddd;
+}
+
+.task td#title {
+    max-width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.task td#date {
+    text-align: center;
+}
+
+.task td {
+    font-size: 14px;
+}
+
+
+tr {
+    transition: background-color 0.2s ease;
+}
+
+tr + tr {
+    background-color: #f9f9f9;
+}
+
+tr + tr td {
+    padding-left: 20px;
+    font-size: 13px;
+}
+
+table {
+    width: 100%;
+    table-layout: fixed;
+}
